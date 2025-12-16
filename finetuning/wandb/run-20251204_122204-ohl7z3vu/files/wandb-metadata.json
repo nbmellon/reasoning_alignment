@@ -1,0 +1,37 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "CPython 3.12.3",
+  "startedAt": "2025-12-04T17:22:04.227248Z",
+  "program": "/Users/evanzimmerman/reasoning_alignment/finetuning/multi_class_classification.py",
+  "codePath": "finetuning/multi_class_classification.py",
+  "codePathLocal": "multi_class_classification.py",
+  "git": {
+    "remote": "https://github.com/nbmellon/reasoning_alignment.git",
+    "commit": "760493a6bcc6bffe29aa2b31209df0583fae7a10"
+  },
+  "email": "evanzimm@umich.edu",
+  "root": "/Users/evanzimmerman/reasoning_alignment/finetuning",
+  "host": "Evans-MacBook-Pro-334.local",
+  "executable": "/Users/evanzimmerman/reasoning_alignment/myenv/bin/python3",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "861992386560"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M1 Pro",
+    "ecpuCores": 2,
+    "pcpuCores": 8,
+    "gpuCores": 16,
+    "memoryGb": 16,
+    "swapTotalBytes": "21474836480",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "tjeytwlpb1xuypnnoqtl7begt9mowmuf"
+}

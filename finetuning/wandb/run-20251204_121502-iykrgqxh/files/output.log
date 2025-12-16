@@ -1,0 +1,19 @@
+  0%|                                                                                                                                | 0/150 [00:00<?, ?it/s]/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+Traceback (most recent call last):
+  File "/Users/evanzimmerman/reasoning_alignment/finetuning/multi_class_classification.py", line 117, in <module>
+    main()
+  File "/Users/evanzimmerman/reasoning_alignment/finetuning/multi_class_classification.py", line 111, in main
+    trainer.train()
+  File "/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/transformers/trainer.py", line 2325, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/transformers/trainer.py", line 4020, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/transformers/trainer.py", line 4142, in compute_loss
+    raise ValueError(
+ValueError: The model did not return a loss from the inputs, only the following keys: logits. For reference, the inputs it received are labels,input_ids,token_type_ids,attention_mask.

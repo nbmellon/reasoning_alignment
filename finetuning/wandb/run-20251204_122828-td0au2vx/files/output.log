@@ -1,0 +1,115 @@
+  0%|                                                                                                                                | 0/350 [00:00<?, ?it/s]/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 14%|█████████████████                                                                                                      | 50/350 [01:16<04:33,  1.10it/s]The following columns in the Evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__. If text, __index_level_0__ are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+{'loss': 1.117, 'grad_norm': 4.287224769592285, 'learning_rate': 1.72e-05, 'epoch': 1.0}
+
+***** Running Evaluation *****
+  Num examples = 200
+  Batch size = 16
+ 14%|█████████████████                                                                                                      | 50/350 [01:19<04:33,  1.10it/s]Saving model checkpoint to ./results/checkpoint-50
+Configuration saved in ./results/checkpoint-50/config.json                                                                                                   
+{'eval_loss': 0.8193874955177307, 'eval_accuracy': 0.71, 'eval_macro_f1': 0.33036872710161, 'eval_weighted_f1': 0.6228973816006185, 'eval_MAE': 0.375, 'eval_runtime': 3.4888, 'eval_samples_per_second': 57.326, 'eval_steps_per_second': 3.726, 'epoch': 1.0}
+Model weights saved in ./results/checkpoint-50/model.safetensors
+tokenizer config file saved in ./results/checkpoint-50/tokenizer_config.json
+Special tokens file saved in ./results/checkpoint-50/special_tokens_map.json
+/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 29%|█████████████████████████████████▋                                                                                    | 100/350 [02:08<03:46,  1.10it/s]The following columns in the Evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__. If text, __index_level_0__ are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+{'loss': 0.67, 'grad_norm': 6.130535125732422, 'learning_rate': 1.4342857142857145e-05, 'epoch': 2.0}
+
+***** Running Evaluation *****
+  Num examples = 200
+  Batch size = 16
+ 29%|█████████████████████████████████▋                                                                                    | 100/350 [02:11<03:46,  1.10it/s]Saving model checkpoint to ./results/checkpoint-100
+Configuration saved in ./results/checkpoint-100/config.json                                                                                                  
+{'eval_loss': 0.6385963559150696, 'eval_accuracy': 0.795, 'eval_macro_f1': 0.5176408341114224, 'eval_weighted_f1': 0.7751009959539371, 'eval_MAE': 0.25, 'eval_runtime': 3.2401, 'eval_samples_per_second': 61.726, 'eval_steps_per_second': 4.012, 'epoch': 2.0}
+Model weights saved in ./results/checkpoint-100/model.safetensors
+tokenizer config file saved in ./results/checkpoint-100/tokenizer_config.json
+Special tokens file saved in ./results/checkpoint-100/special_tokens_map.json
+/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 43%|██████████████████████████████████████████████████▌                                                                   | 150/350 [02:59<03:05,  1.08it/s]The following columns in the Evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__. If text, __index_level_0__ are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+{'loss': 0.5061, 'grad_norm': 5.3418755531311035, 'learning_rate': 1.1485714285714287e-05, 'epoch': 3.0}
+
+***** Running Evaluation *****
+  Num examples = 200
+  Batch size = 16
+ 43%|██████████████████████████████████████████████████▌                                                                   | 150/350 [03:03<03:05,  1.08it/s]Saving model checkpoint to ./results/checkpoint-150
+Configuration saved in ./results/checkpoint-150/config.json                                                                                                  
+{'eval_loss': 0.6328997611999512, 'eval_accuracy': 0.78, 'eval_macro_f1': 0.5366167919914646, 'eval_weighted_f1': 0.7735032237315649, 'eval_MAE': 0.27, 'eval_runtime': 3.1953, 'eval_samples_per_second': 62.591, 'eval_steps_per_second': 4.068, 'epoch': 3.0}
+Model weights saved in ./results/checkpoint-150/model.safetensors
+tokenizer config file saved in ./results/checkpoint-150/tokenizer_config.json
+Special tokens file saved in ./results/checkpoint-150/special_tokens_map.json
+/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 57%|███████████████████████████████████████████████████████████████████▍                                                  | 200/350 [03:51<02:16,  1.10it/s]The following columns in the Evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__. If text, __index_level_0__ are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+{'loss': 0.398, 'grad_norm': 7.257993698120117, 'learning_rate': 8.628571428571429e-06, 'epoch': 4.0}
+
+***** Running Evaluation *****
+  Num examples = 200
+  Batch size = 16
+ 57%|███████████████████████████████████████████████████████████████████▍                                                  | 200/350 [03:54<02:16,  1.10it/s]Saving model checkpoint to ./results/checkpoint-200
+Configuration saved in ./results/checkpoint-200/config.json                                                                                                  
+{'eval_loss': 0.6228724122047424, 'eval_accuracy': 0.79, 'eval_macro_f1': 0.5374999317666967, 'eval_weighted_f1': 0.7782690848549361, 'eval_MAE': 0.245, 'eval_runtime': 3.1759, 'eval_samples_per_second': 62.975, 'eval_steps_per_second': 4.093, 'epoch': 4.0}
+Model weights saved in ./results/checkpoint-200/model.safetensors
+tokenizer config file saved in ./results/checkpoint-200/tokenizer_config.json
+Special tokens file saved in ./results/checkpoint-200/special_tokens_map.json
+/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 71%|████████████████████████████████████████████████████████████████████████████████████▎                                 | 250/350 [04:43<01:31,  1.10it/s]The following columns in the Evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__. If text, __index_level_0__ are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+{'loss': 0.3277, 'grad_norm': 4.087586879730225, 'learning_rate': 5.771428571428572e-06, 'epoch': 5.0}
+
+***** Running Evaluation *****
+  Num examples = 200
+  Batch size = 16
+ 71%|████████████████████████████████████████████████████████████████████████████████████▎                                 | 250/350 [04:46<01:31,  1.10it/s]Saving model checkpoint to ./results/checkpoint-250
+Configuration saved in ./results/checkpoint-250/config.json                                                                                                  
+{'eval_loss': 0.6514912247657776, 'eval_accuracy': 0.79, 'eval_macro_f1': 0.5425223792172444, 'eval_weighted_f1': 0.7829395409422953, 'eval_MAE': 0.255, 'eval_runtime': 3.2367, 'eval_samples_per_second': 61.792, 'eval_steps_per_second': 4.016, 'epoch': 5.0}
+Model weights saved in ./results/checkpoint-250/model.safetensors
+tokenizer config file saved in ./results/checkpoint-250/tokenizer_config.json
+Special tokens file saved in ./results/checkpoint-250/special_tokens_map.json
+/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████▏                | 300/350 [05:35<00:45,  1.11it/s]The following columns in the Evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__. If text, __index_level_0__ are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+{'loss': 0.2626, 'grad_norm': 3.187061309814453, 'learning_rate': 2.9142857142857146e-06, 'epoch': 6.0}
+
+***** Running Evaluation *****
+  Num examples = 200
+  Batch size = 16
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████▏                | 300/350 [05:38<00:45,  1.11it/s]Saving model checkpoint to ./results/checkpoint-300
+Configuration saved in ./results/checkpoint-300/config.json                                                                                                  
+{'eval_loss': 0.67125403881073, 'eval_accuracy': 0.785, 'eval_macro_f1': 0.5273207593081904, 'eval_weighted_f1': 0.7754510514942565, 'eval_MAE': 0.255, 'eval_runtime': 3.2132, 'eval_samples_per_second': 62.243, 'eval_steps_per_second': 4.046, 'epoch': 6.0}
+Model weights saved in ./results/checkpoint-300/model.safetensors
+tokenizer config file saved in ./results/checkpoint-300/tokenizer_config.json
+Special tokens file saved in ./results/checkpoint-300/special_tokens_map.json
+/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 350/350 [06:27<00:00,  1.09it/s]The following columns in the Evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__. If text, __index_level_0__ are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+{'loss': 0.2198, 'grad_norm': 6.707386493682861, 'learning_rate': 5.714285714285715e-08, 'epoch': 7.0}
+
+***** Running Evaluation *****
+  Num examples = 200
+  Batch size = 16
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 350/350 [06:31<00:00,  1.09it/s]Saving model checkpoint to ./results/checkpoint-350
+Configuration saved in ./results/checkpoint-350/config.json                                                                                                  
+{'eval_loss': 0.6753991842269897, 'eval_accuracy': 0.795, 'eval_macro_f1': 0.5464888395780845, 'eval_weighted_f1': 0.7864261686275417, 'eval_MAE': 0.245, 'eval_runtime': 3.2707, 'eval_samples_per_second': 61.149, 'eval_steps_per_second': 3.975, 'epoch': 7.0}
+Model weights saved in ./results/checkpoint-350/model.safetensors
+tokenizer config file saved in ./results/checkpoint-350/tokenizer_config.json
+Special tokens file saved in ./results/checkpoint-350/special_tokens_map.json
+
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+Loading best model from ./results/checkpoint-100 (score: 0.795).
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 350/350 [06:34<00:00,  1.13s/it]
+{'train_runtime': 395.7741, 'train_samples_per_second': 14.149, 'train_steps_per_second': 0.884, 'train_loss': 0.5001687758309501, 'epoch': 7.0}
+The following columns in the Evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: text, __index_level_0__. If text, __index_level_0__ are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+
+***** Running Evaluation *****
+  Num examples = 200
+  Batch size = 16
+/Users/evanzimmerman/reasoning_alignment/myenv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:692: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:02<00:00,  4.46it/s]
+Final Eval Metrics: {'eval_loss': 0.6385963559150696, 'eval_accuracy': 0.795, 'eval_macro_f1': 0.5176408341114224, 'eval_weighted_f1': 0.7751009959539371, 'eval_MAE': 0.25, 'eval_runtime': 3.2094, 'eval_samples_per_second': 62.317, 'eval_steps_per_second': 4.051, 'epoch': 7.0}
